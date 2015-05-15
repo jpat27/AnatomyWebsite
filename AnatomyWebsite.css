@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+    background-color: aliceblue;
+    //background-image: url(Logo2.png);
+    height: 3200px;
+}
+
+#menuBar {
+    background-color:dimgrey;
+    left:-5px;
+    width: 100%;
+    float: left;
+    height: 50px;
+    position: fixed;
+    z-index: 1000;
+}
+
+.Button {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.3vw;
+    background-color:dimgrey;
+    border: none;
+    padding: 10px;
+    width: 15%;
+    height: inherit;
+}
+#warning {
+    position: absolute;
+    top: 60px;
+    left: 200px;
+    color: #ff6c00;
+}
+.Topic {
+    position: relative;
+    top:20%;
+    background-color: aliceblue;
+    padding: 15px;
+    width: 70%;
+    left: 10%;
+    font-size: 20px;
+}
+#Trials {
+ top: 300px;   
+}
+
+#Test {
+ top: 600px;   
+}
+
+#Post {
+ top: 1000px;
+}
+
+#Effects {
+ top: 1400px;   
+}
+
+#footnote {
+    position: absolute;
+    top: 3125px;
+    left: 15%;
+    color:darkgray;
+}
