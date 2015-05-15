@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="AnatomyWebsite.css">
+        <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+        <script src='jquery-2.1.4.min.js'></script>
+        <script type="text/javascript" src="jquery.scrollTo-2.1.0/jquery.scrollTo.js"></script>
+        <script type="text/javascript"> 
+            function ClickScroll(type) {
+                if(type == "policy"){
+                    $(window).scrollTo("200px",800);
+                }else if(type == "test"){
+                    $(window).scrollTo("800px", 800);   
+                }else if(type == "test2"){
+                    $(window).scrollTo("1500px",800);   
+                }else if(type == "effect"){
+                    $(window).scrollTo("2500px", 800);   
+                }else if(type == "home"){
+                    $(window).scrollTo("0px", 800);   
+                }
+            }
+        </script>
+        <link href="Hover-master/css/hover.css" rel="stylesheet" media="all">
+    </head>
+    <body>
+        <header id="menuBar">
+            <button class="Button hvr-sweep-to-right" onClick="ClickScroll('home');">Virco-Patterson LLC</button>
+            <button id="Safe" class="Button hvr-sweep-to-right" onClick="ClickScroll('policy');">Safety Policies</button>
+            <button class="Button hvr-sweep-to-right" onClick="ClickScroll('test');">Tests</button>
+            <button class="Button hvr-sweep-to-right" onClick="ClickScroll('test2');">Post Release</button>
+            <button class="Button hvr-sweep-to-right" onClick="ClickScroll('effect');">Teratogenic Effects</button>
+        </header>
+        <h1 id="warning">Note, this website is for educational purposes only, all information here is fictional.</h1>
+        <div id="Trials" class="Topic">
+            <h2>SAFETY POLICIES</h2>
+            <p class="TopicText">Our company will provide the necessary precautions needed to make sure our drug is safe. Chemists will perform different tests that can detect the proper amounts of metals and chemicals that are present in the                    medication. These different tests are necessary in providing the utmost safety to consumers and patients that will use our product. The metal test, also known as a trace test, can show certain harmful        substances that may appear in the drug. Chemists then trace what effects each substance may have, and take actions to minimize harmful substances. CDER that is affiliated with the FDA administers the safety of each product.                High traces of metal that may be present in the drug can negatively affect an infant's development. The body is only capable of processing certain amounts of specific metals, and our company  has taken substantial                strides towards ensuring the safety of Lucida.    
+            </p>
+            
+            <p class="TopicText">Lucida has been tested using both the CDER's resources and trace tests, full screenings can be provided to ensure its safety. Chemical analizations have been performed to demonstrate how Lucida will affect a person that has consumed alcohol or drugs, and the following risks that may occur. Any risks that are associated with Lucida are minimal, and result in minor discrepancies that can be easily taken care of with over-the-counter medication. The effects seen in pregnant women may be different than those in other people, but we have taken steps to ensure safety.
+</p>
+        </div>
+        <div id="Test" class="Topic">
+            <h2>How does a company test it's Drugs?</h2>
+            <p>The company does the testing prior to sending the drug to the FDA. The FDA reviews the tests and the CDER branch determines whether or not the drug qualifies for clinical trials on people. 
+
+The clinical trials take place in 3-4 different phases. In the first phase, around 30 people are tested and their results are tested. Each person who is tested is screened carefully and their side effects are recorded. During the second phase around 50 people are tested and research how the drug can affect certain illnesses and cancers. Phase 3 can test up to 1000 people and it's the most expensive out of all the phases. 
+</p>
+        </div>
+        <div id="Post" class="Topic">
+            <h2>Post Release</h2>
+            <p>According to the FDA, monitoring of approved drugs does not stop even after approval. This is because not all drugs are risk free and new effects might present themselves. This is necessary to detect new drug safety issues. They have claimed to taken steps to enhance the quality of its postmarket drug safety decisions. </p>
+            
+            <p>How we will monitor the drug is similar to the way the FDA operates. We will constantly monitor the drug by continuing research in order to detect possible health risk that might be present in the drug and reading and analyzing reports of recipients of the drug in order to pinpoint similar side effects or health risk that may have been overlooked in the initial stage of testing. By ensuring that we constantly monitor the drug, we will lower the chance of overlooking something that might be harmful to the consumers.
+</p>
+        </div>
+        <div id="Effects" class="Topic">
+            <h2>How Lucida will avoid teratogenic effects?</h2>
+            <p>Teratogenic effects through drug use is mainly caused by the inhibition of the folate methylation cycle. Folate is important in making dna and can be gotten in foods as folic acid. It is especially important in developing babies because their dna has not been established and a mistake in dna formation may cause the loss of limbs, body control, formation of organs, and death. Some metabolites, a substance necessary for the breakdown of the medicine, that are known to cause teratogenic effects are methotrexate, sulfasalazine, triamterene and trimethoprim. All of these metabolites inhibit the cycle which leads to fetal deformation. Research shows that carcinogenic teratogenic effects occur due to the metabolism of polycyclic aromatic hydrocarbons which usually result in sterilization of both males and females. </p>
+            
+            <p>Lucida has a monocyclic aromatic hydrocarbon structure that require resveratrol to breakdown the medicine. Resveratrol is a metabolite that has been found to destroy cancer cells and is also the metabolite of red wine, particularly a sulfate metabolite. This is how the drug reduces chances of cancer and may even hold a therapeutic effect. Another metabolite used is the metabolite found in the breakdown of Adderall, an ADHD drug, but this metabolite is found in very small amounts. However, it does not contain the addictive components of Adderall. Lucida may contain the secret to greater attention and cancer prevention.
+</p>
+        </div>
+        <p id="footnote">This website was created by Jake Patterson, with assistance from Eric Chang, Purvi Patel, Iria Banigo, Noah Gustover, and Claudia Shelbourn</p>
+    </body>
+</html>
